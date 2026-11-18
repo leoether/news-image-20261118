@@ -1,6 +1,10 @@
+[![make.fun](https://make.fun/badge/news-image-20261118.svg)](https://make.fun/bounty/news-image-20261118)
+[![rank](https://make.fun/badge/news-image-20261118/leoether/news-image-20261118/rank.svg)](https://make.fun/bounty/news-image-20261118)
+[![reward](https://make.fun/badge/news-image-20261118/leoether/news-image-20261118/reward.svg)](https://make.fun/bounty/news-image-20261118)
+
 # The World in One Day — 18 November 2026
 
-A make.fun entry for the `news-image-20261118` competition: one image that
+A [make.fun](https://make.fun/bounty/news-image-20261118) entry for the `news-image-20261118` competition: one image that
 sums up the world's news of Wednesday 18 November 2026.
 
 ## The image
@@ -31,6 +35,12 @@ Amazon planning a $7bn renewables investment in India.
 `$MAKEFUN_OUTPUT_DIR/entry.png` (default `/output/entry.png`) after checking
 its PNG signature. No network, no randomness, no clock — two runs write
 byte-identical files.
+
+## Run it
+
+```sh
+mkdir -p out && MAKEFUN_OUTPUT_DIR=out node main.ts
+```
 
 ## License
 
